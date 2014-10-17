@@ -502,6 +502,15 @@ body
 {
 	height:214px;
 }
+/* hide sidebars on pages projekte, news */
+.category-projekte .main-inner, .category-news .main-inner, .category-medien .main-inner, .category-video .main-inner, .category-audio .main-inner, .category-artikel .main-inner
+{
+	padding-right:0px !important;
+}
+.category-projekte .sidebar, .category-news .sidebar, .category-medien .sidebar, .category-video .sidebar, .category-audio .sidebar, .category-artikel .sidebar
+{
+	display:none;
+}
 
 /* Tablet - 800px, 768px & 720px */
 @media only screen and (min-width: 720px) and (max-width: 800px) {
@@ -613,7 +622,19 @@ p.site-description
 .entry.excerpt {
     color: #8a826f;
 }
-
+.sidebar
+{
+	background: 0 none;
+	background-color: #F8F4EC !important;
+}
+.col-2cl .main-inner
+{
+	background-image: none !important;
+}
+.boxed #page
+{
+	background: none repeat scroll 0 0 #ffffff;
+}
 /* Mobile - 480px & 320px */
 @media only screen and (max-width: 719px) {
 	.mystyle {}
