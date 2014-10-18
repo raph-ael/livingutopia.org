@@ -9,12 +9,16 @@
 
 jQuery(document).ready(function($) {
 
-	
+	$('#nav-header .fa-github').parent().parent().remove();
 	if($('body.home').length > 0)
 	{
 		$h3 = $('#tribe-events-list-widget-3 h3');
 		$h3.html('<a href="/termine/">'+$h3.html()+'</a>');
 		$('#flexslider-featured').after('<h2 class="projektestarter post-title"><a title="Projekte" href="/category/projekte/">Projekte</a></h2>');
+	}
+	if($('body.home.paged-2').length > 0)
+	{
+		$('.page-title h2').text('projekte');
 	}
 	
 /*  Toggle header search

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: The Events Calendar v3.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-19 11:21-0800\n"
-"PO-Revision-Date: 2014-09-19 11:21-0800\n"
+"PO-Revision-Date: 2014-10-12 10:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
 "Language: de_DE\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
@@ -227,7 +227,7 @@ msgstr "Informationen zum Veranstaltungsort"
 # @ tribe-events-calendar
 #: ../admin-views/events-meta-box.php:107
 msgid "Event Organizer Details"
-msgstr "Informationen zum Veranstalter"
+msgstr "Informationen zur Veranstalter*in"
 
 # @ tribe-events-calendar
 #: ../admin-views/events-meta-box.php:116
@@ -1722,7 +1722,7 @@ msgstr "Veranstaltungsorte"
 #: ../lib/the-events-calendar.class.php:530
 #: ../public/template-tags/organizer.php:59
 msgid "Organizers"
-msgstr "Veranstalter"
+msgstr "Veranstalter*in"
 
 # @ tribe-events-calendar
 #: ../lib/io/csv/admin-views/import.php:47
@@ -1890,7 +1890,7 @@ msgstr "Name des Veranstaltungsortes"
 # @ tribe-events-calendar
 #: ../lib/io/csv/classes/TribeEventsImporter_ColumnMapper.php:60
 msgid "Event Organizer Name"
-msgstr "Name des Veranstalters"
+msgstr "Name der Veranstalter*in"
 
 # @ tribe-events-calendar
 #: ../lib/io/csv/classes/TribeEventsImporter_ColumnMapper.php:61
@@ -1959,7 +1959,7 @@ msgstr "Telefon"
 # @ tribe-events-calendar
 #: ../lib/io/csv/classes/TribeEventsImporter_ColumnMapper.php:85
 msgid "Organizer Name"
-msgstr "Name des Veranstalters"
+msgstr "Name der Veranstalter*in"
 
 # @ tribe-events-calendar
 #: ../lib/io/csv/classes/TribeEventsImporter_ColumnMapper.php:86
@@ -2183,7 +2183,7 @@ msgstr "Veranstaltungsort"
 #: ../public/advanced-functions/meta.php:518
 #: ../public/template-tags/organizer.php:48
 msgid "Organizer"
-msgstr "Veranstalter"
+msgstr "Veranstalter*in"
 
 # @ tribe-events-calendar
 #: ../lib/the-events-calendar.class.php:585
@@ -4818,7 +4818,7 @@ msgstr "Veranstaltungsliste"
 # @ tribe-events-calendar
 #: ../lib/widget-list.class.php:162 ../public/template-tags/loop.php:128
 msgid "Upcoming Events"
-msgstr "Anstehende Veranstaltungen"
+msgstr "Nächste Termine"
 
 # @ tribe-events-calendar
 #: ../public/advanced-functions/meta.php:42
@@ -4975,7 +4975,7 @@ msgstr "Tagesnavigation"
 # @ tribe-events-calendar
 #: ../views/day/single-event.php:74 ../views/list/single-event.php:80
 msgid "Find out more"
-msgstr "Erfahren Sie mehr"
+msgstr "mehr dazu"
 
 # @ tribe-events-calendar
 #: ../views/list/nav.php:17
@@ -5023,7 +5023,7 @@ msgstr[1] "Veranstaltung ansehen"
 # @ tribe-events-calendar
 #: ../views/single-event.php:24
 msgid "&laquo; All Events"
-msgstr "&laquo; Alle Veranstaltungen"
+msgstr "&laquo; Alle Termine"
 
 # @ tribe-events-calendar
 #: ../views/single-event.php:43 ../views/single-event.php:89
@@ -5053,94 +5053,9 @@ msgstr "Käufer"
 # @ tribe-events-calendar
 #: ../views/widgets/list-widget.php:63
 msgid "View All Events"
-msgstr "Alle Veranstaltungen ansehen"
+msgstr "Alle Termine"
 
 # @ tribe-events-calendar
 #: ../views/widgets/list-widget.php:70
 msgid "There are no upcoming events at this time."
 msgstr "Es gibt derzeit keine anstehenden Veranstaltungen."
-
-# @ tribe-events-calendar
-#~ msgid "Auditing Information"
-#~ msgstr "Informationen zur Prüfung"
-
-# @ tribe-events-calendar
-#~ msgid "Created by:"
-#~ msgstr "Erstellt von"
-
-# @ tribe-events-calendar
-#~ msgid "Audit Trail:"
-#~ msgstr "Protokoll:"
-
-# @ tribe-events-calendar
-#~ msgid "Events this month"
-#~ msgstr "Veranstaltungen diesen Monat"
-
-# @ tribe-events-calendar
-#~ msgid "Use New "
-#~ msgstr "Verwende neue %s"
-
-# @ tribe-events-calendar
-#~ msgid "Tribe"
-#~ msgstr "Tribe"
-
-# @ tribe-events-calendar
-#~ msgid ""
-#~ "Welcome to Events 2.0! This is a HUGE upgrade from 1.6.5. Please make "
-#~ "sure you have backed up before proceeding any further. You can easily <a "
-#~ "href=\"%s\">revert to an old version</a> if you want to backup first. "
-#~ "This upgrade includes two major steps, <a href=\"%s\">migrating data</a> "
-#~ "&amp; updating your templates as necessary. There have been significant "
-#~ "changes to the template tags and functions. Check out our <a href=\"%s"
-#~ "\">walk-through on the upgrade</a> before proceeding and check out the "
-#~ "FAQ &amp; Knowledge base from the <a href=\"%s\">support page</a>. If "
-#~ "you're new to The Events Calendar, you may want to review our <a href=\"%s"
-#~ "\">new user primer</a>.<br/><br/> You have events that need to be "
-#~ "migrated.  Please visit the bottom of the <a href=\"%s\">settings page</"
-#~ "a> to perform the migration."
-#~ msgstr ""
-#~ "Willkommen zu Events 2.0! Dies is ein großes Update von 1.6.5. Bitte "
-#~ "erstellen Sie ein Backup, bevor Sie fortfahren. Sie können leicht  <a "
-#~ "href=\"%s\">auf eine alte Version zurückgehen</a>, wenn sie vorher ein "
-#~ "Backup durchführen. Dieses Update enthätl zwei Schritte, <a href=\"%s"
-#~ "\">Daten migrieren</a> &amp; und ggfs. die Vorlagen updaten. Es gab "
-#~ "signifikante Änderungen an den Template tags und Funktionen. Prüfen Sie "
-#~ "unsere <a href=\"%s\">Übersicht</a>, FAQ Knowledgebase  auf der <a href="
-#~ "\"%s\">Suportseite</a> bevor Sie fortfahren. Wenn Sie neu sind, schauen "
-#~ "Sie auch unseren <a href=\"%s\">New User Primer</a> an.<br/><br/> Sie "
-#~ "haben Veranstaltugnen, die migriert werden müssen. Bitte nutzen Sie den "
-#~ "<a href=\"%s\">Button am Ende der Einstellungen Seite</a>zum Migieren."
-
-# @ tribe-events-calendar
-#~ msgid ""
-#~ "It appears that you have some old events calendar data that needs to be "
-#~ "upgraded. Please be sure to back up your database before initiating the "
-#~ "upgrade. This process can not be undone."
-#~ msgstr ""
-#~ "Es scheint, als häutten Sie noch alte Veranstaltungsdaten in der "
-#~ "Datenbank, die aktualisiert werden müssen. Bitte stellen Sie sicher, dass "
-#~ "Sie vor dem Initialisieren des Upgrades eine Sicherung der (bisherigen) "
-#~ "Datenbank erstellen. Hinweis: Der gesamte Prozess kann <em>nicht</em> "
-#~ "rückgängig gemacht werden!"
-
-# @ tribe-events-calendar
-#~ msgid "Migrate Data!"
-#~ msgstr "Daten migrieren!"
-
-# @ tribe-events-calendar
-#~ msgid "You successfully migrated (%d) entries."
-#~ msgstr "Sie haben erfolgreich (%d) Einträge migriert."
-
-# @ tribe-events-calendar
-#~ msgid "Install has 1 or more legacy event!"
-#~ msgstr ""
-#~ "In der Installation wurde(n) ein oder mehrere alte/ abgelaufene "
-#~ "Veranstaltung(en) gefunden!"
-
-# @ tribe-events-calendar
-#~ msgid "Events "
-#~ msgstr "Veranstaltungen"
-
-# @ tribe-events-calendar
-#~ msgid "Event "
-#~ msgstr "Veranstaltung"
