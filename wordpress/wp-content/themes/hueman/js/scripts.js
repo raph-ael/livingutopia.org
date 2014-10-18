@@ -12,7 +12,9 @@ jQuery(document).ready(function($) {
 	
 	if($('body.home').length > 0)
 	{
-		$('#flexslider-featured').after('<h2 class="post-title"><a title="Projekte" href="/category/projekte/">Projekte</a></h2>');
+		$h3 = $('#tribe-events-list-widget-3 h3');
+		$h3.html('<a href="/termine/">'+$h3.html()+'</a>');
+		$('#flexslider-featured').after('<h2 class="projektestarter post-title"><a title="Projekte" href="/category/projekte/">Projekte</a></h2>');
 	}
 	
 /*  Toggle header search

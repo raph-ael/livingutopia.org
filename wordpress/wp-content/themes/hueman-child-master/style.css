@@ -25,9 +25,13 @@ body
 h1, h2, h3, h4, h5, h6, .post-title, .post-title a, .wp-pagenavi a:hover, .wp-pagenavi a:active, .wp-pagenavi span.current {
     color: #241c09;
 }
-body, .alx-tab .tab-item-category, .alx-posts .post-item-category, .entry blockquote, .entry blockquote:before, .page-title h1, .page-title h2, .page-title h4, .widget, .widget > h3, .widget a, .tribe-events-list-widget-events .duration, .sidebar-content input.newsletter-email
+body, .alx-tab .tab-item-category, .alx-posts .post-item-category, .entry blockquote, .entry blockquote:before, .page-title h1, .page-title h2, .page-title h4, .widget, .widget > h3, .widget > h3 a, .widget a, .tribe-events-list-widget-events .duration, .sidebar-content input.newsletter-email
 {
 	color:#8a826f;
+}
+.widget > h3 a:hover
+{
+	text-decoration:underline;
 }
 .post-meta .post-date, .tslider blockquote p, .tslider blockquote footer, .tslider blockquote footer, .tslider blockquote footer, .tslider blockquote footer a, .alx-posts .post-item-title, .alx-posts .post-item-title a
 {
@@ -65,10 +69,7 @@ body, .alx-tab .tab-item-category, .alx-posts .post-item-category, .entry blockq
 {
 	border-bottom-color: #D7CFBC;
 }
-#flexslider-featured .flex-control-nav li a
-{
-	background-color: #D7CFBC;
-}
+
 .boxed #wrapper
 {
 	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
@@ -224,11 +225,11 @@ color: red;
 {
 	background-color: #F47500 !important;
 	-webkit-border-top-left-radius: 3px;
--webkit-border-bottom-left-radius: 3px;
--moz-border-radius-topleft: 3px;
--moz-border-radius-bottomleft: 3px;
-border-top-left-radius: 3px;
-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 .post-comments span:before
 {
@@ -241,6 +242,8 @@ border-bottom-left-radius: 3px;
 	border-radius: 8px;
 	height:8px;
 	width:8px;
+	background-color: #D7CFBC;
+	margin-right:5px;
 }
 .page-title
 {
@@ -502,6 +505,34 @@ body
 {
 	height:214px;
 }
+.content .page-title h2, .category .page-title h1 span, h2.tribe-events-page-title, h2.projektestarter a
+{
+	background-color:#3C7D1B;
+	color:#FFFFFF;
+	padding:8px 12px 8px 32px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	display:inline-block;
+	position:relative;
+	left:-32px;
+	font-size:18px !important;
+	font-weight:600;
+	text-transform: uppercase;
+	line-height: 18px !important;
+	
+}
+h2.projektestarter a
+{
+	margin-bottom:20px;
+}
+h2.tribe-events-page-title
+{
+	left:-124px;
+}
 /* hide sidebars on pages projekte, news */
 .category-projekte .main-inner, .category-news .main-inner, .category-medien .main-inner, .category-video .main-inner, .category-audio .main-inner, .category-artikel .main-inner
 {
@@ -539,7 +570,7 @@ body
 	font-size: 18px;
 	margin-bottom: 10px;
 }
-.entry p, .entry dd
+.entry p, .entry dd, .widget_text .textwidget p
 {
 	text-align: justify;
 }
@@ -612,6 +643,11 @@ p.site-description
     color:#33363B !important;
     width:190px;
 	
+}
+.tribe-events-page-template .main-inner
+{
+	background: none;
+	padding-left:0px;
 }
 #footer-bottom div.block
 {

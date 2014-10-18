@@ -11,7 +11,8 @@ function kreis_func( $atts, $content ) {
 			
 		'farbe' => 'orange',
 		'groesse' => 'normal',
-		'link' => false
+		'link' => false,
+		'style' => 'float:none;'
 		
 	), $atts );
 	
@@ -59,7 +60,7 @@ function kreis_func( $atts, $content ) {
 	$pre = '';
 	$after = '';
 
-	return $pre.'<'.$tag.$link.' class="kreis '.$a['farbe'].' '.$a['groesse'].'">' . $content . '</'.$tag.'>'.$after;
+	return $pre.'<'.$tag.$link.' class="kreis '.$a['farbe'].' '.$a['groesse'].'" style="'.$a['style'].'">' . $content . '</'.$tag.'>'.$after;
 }
 
 add_shortcode( 'kreis', 'kreis_func' );
