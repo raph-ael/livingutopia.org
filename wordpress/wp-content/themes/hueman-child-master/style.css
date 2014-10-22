@@ -505,7 +505,7 @@ body
 {
 	height:214px;
 }
-.content .page-title h2, .category .page-title h1 span /*, h2.tribe-events-page-title*/, h2.projektestarter a
+.content .page-title h2, .category .page-title h1 span, .main .page-title ul.meta-single, h2.projektestarter a /*, h2.tribe-events-page-title*/
 {
 	background-color:#3C7D1B;
 	color:#FFFFFF;
@@ -524,6 +524,10 @@ body
 	text-transform: uppercase;
 	line-height: 18px !important;
 	
+}
+.main .page-title ul.meta-single li a, .main .page-title ul.meta-single li span
+{
+	color:#FFFFFF;
 }
 h2.projektestarter a
 {
@@ -558,13 +562,13 @@ h2.tribe-events-page-title
 	color:#FFFFFF !important;
 	right:0 !important;
 	-webkit-border-top-left-radius: 8px !important;
--webkit-border-bottom-left-radius: 8px !important;
--moz-border-radius-topleft: 8px !important;
--moz-border-radius-bottomleft: 8px !important;
-border-top-left-radius: 8px !important;
-border-bottom-left-radius: 8px !important;
-width:auto !important;
-margin-right:-20px;
+	-webkit-border-bottom-left-radius: 8px !important;
+	-moz-border-radius-topleft: 8px !important;
+	-moz-border-radius-bottomleft: 8px !important;
+	border-top-left-radius: 8px !important;
+	border-bottom-left-radius: 8px !important;
+	width:auto !important;
+	margin-right:-20px;
 }
 .huge_it_slideshow_dots_thumbnails_3
 {
@@ -721,6 +725,11 @@ p.site-description
 .memberlist p a
 {
 	float:right;
+}
+.memberlist h3
+{
+	margin-top:20px;
+	margin-bottom:8px;
 }
 /* Mobile - 480px & 320px */
 @media only screen and (max-width: 719px) {
